@@ -1,0 +1,46 @@
+Microsoft Windows [Version 10.0.19042.1110]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\Home\Desktop\Test>javac Hello.java
+Hello.java:4: error: package system does not exist
+                system.out.println("Welcome to java");
+                      ^
+1 error
+
+C:\Users\Home\Desktop\Test>javac Hello.java
+
+C:\Users\Home\Desktop\Test>java Hello
+Error: Could not find or load main class Hello
+
+C:\Users\Home\Desktop\Test>javac com.training.hell Hello.java
+error: Class names, 'com.training.hell', are only accepted if annotation processing is explicitly requested
+1 error
+
+C:\Users\Home\Desktop\Test>java -d.Hello.java
+Unrecognized option: -d.Hello.java
+Error: Could not create the Java Virtual Machine.
+Error: A fatal exception has occurred. Program will exit.
+
+C:\Users\Home\Desktop\Test>javac .d . Hello.java
+javac: invalid flag: .d
+Usage: javac <options> <source files>
+use -help for a list of possible options
+
+C:\Users\Home\Desktop\Test>javac -d . Hello.java
+
+C:\Users\Home\Desktop\Test>java Hello
+Error: Could not find or load main class Hello
+
+C:\Users\Home\Desktop\Test>java com.training.test Hello
+Error: Could not find or load main class com.training.test
+
+C:\Users\Home\Desktop\Test>java com.training.test.Hello
+Error: Could not find or load main class com.training.test.Hello
+
+C:\Users\Home\Desktop\Test>java com.training.test.Hello
+Error: Could not find or load main class com.training.test.Hello
+
+C:\Users\Home\Desktop\Test>java com.training.hell.Hello
+Welcome to java
+
+C:\Users\Home\Desktop\Test>

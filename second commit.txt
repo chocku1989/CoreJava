@@ -1,0 +1,49 @@
+
+Home@LAPTOP-1TP12U6V MINGW64 ~/Desktop/Fullstack (main)
+$ git add
+Nothing specified, nothing added.
+hint: Maybe you wanted to say 'git add .'?
+hint: Turn this message off by running
+hint: "git config advice.addEmptyPathspec false"
+
+Home@LAPTOP-1TP12U6V MINGW64 ~/Desktop/Fullstack (main)
+$ git remote add origin https://github.com/chocku1989/tl-jun-batch.git
+error: remote origin already exists.
+
+Home@LAPTOP-1TP12U6V MINGW64 ~/Desktop/Fullstack (main)
+$ git add .
+warning: LF will be replaced by CRLF in .gitignore.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in training/.gitignore.
+The file will have its original line endings in your working directory
+
+Home@LAPTOP-1TP12U6V MINGW64 ~/Desktop/Fullstack (main)
+$ git commit -m'training project second commit'
+[main 8a599c5] training project second commit
+ 9 files changed, 120 insertions(+)
+ create mode 100644 .gitignore
+ create mode 100644 .sonarlint/default/.sonartmp_5879173819385591328/sonarlint-slf4j-sonar-log155254998140054021.jar
+ create mode 100644 AllCOmands today.txt
+ create mode 100644 training/.classpath
+ create mode 100644 training/.gitignore
+ create mode 100644 training/.project
+ create mode 100644 training/.settings/org.eclipse.jdt.core.prefs
+ create mode 100644 training/src/development/HelloWorld.java
+ create mode 100644 training/src/development/HelloWorld2.java
+
+Home@LAPTOP-1TP12U6V MINGW64 ~/Desktop/Fullstack (main)
+$ git push
+Enumerating objects: 19, done.
+Counting objects: 100% (19/19), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (14/14), done.
+Writing objects: 100% (18/18), 7.01 KiB | 1.17 MiB/s, done.
+Total 18 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/chocku1989/tl-jun-batch.git
+   1ff18e1..8a599c5  main -> main
+
+Home@LAPTOP-1TP12U6V MINGW64 ~/Desktop/Fullstack (main)
+$ ^C
+
+Home@LAPTOP-1TP12U6V MINGW64 ~/Desktop/Fullstack (main)
+$

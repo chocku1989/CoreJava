@@ -1,0 +1,63 @@
+Microsoft Windows [Version 10.0.19042.985]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\Home\Desktop\Fullstack>git init
+Initialized empty Git repository in C:/Users/Home/Desktop/Fullstack/.git/
+
+C:\Users\Home\Desktop\Fullstack>git add.
+git: 'add.' is not a git command. See 'git --help'.
+
+The most similar command is
+        add
+
+C:\Users\Home\Desktop\Fullstack>git add .
+
+C:\Users\Home\Desktop\Fullstack>git commit -m "first commit"
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'Home@LAPTOP-1TP12U6V.(none)')
+
+C:\Users\Home\Desktop\Fullstack>git config --global user.name "FIRST_NAME LAST_NAME"
+
+C:\Users\Home\Desktop\Fullstack>git config --global user.name "FIRST_NAME LAST_NAME"
+
+C:\Users\Home\Desktop\Fullstack>git config --global user.name "Chockalingam Alagappan"
+
+C:\Users\Home\Desktop\Fullstack>git config --global user.email "chocku1989@gmail.com"
+
+C:\Users\Home\Desktop\Fullstack>git commit -m "first commit"
+[master (root-commit) 1ff18e1] first commit
+ 5 files changed, 22 insertions(+)
+ create mode 100644 HelloWorld.class
+ create mode 100644 HelloWorld.java
+ create mode 100644 HelloWorld2.class
+ create mode 100644 HelloWorld2.java
+ create mode 100644 commandPromt.txt
+
+C:\Users\Home\Desktop\Fullstack>git branch -M main
+
+C:\Users\Home\Desktop\Fullstack>git remote add origin https://github.com/chocku1989/tl-jun-batch.git
+
+C:\Users\Home\Desktop\Fullstack>git push -u origin main
+info: please complete authentication in your browser...
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (7/7), done.
+Writing objects: 100% (7/7), 1.46 KiB | 745.00 KiB/s, done.
+Total 7 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/chocku1989/tl-jun-batch.git
+ * [new branch]      main -> main
+Branch 'main' set up to track remote branch 'main' from 'origin'.
+
+C:\Users\Home\Desktop\Fullstack>

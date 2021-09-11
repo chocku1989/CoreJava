@@ -1,0 +1,8 @@
+JVM Flow
+
+1. JVM will first Identify the static variables from top to bottom of your class 
+2. It will initialize the static variables and call static { } 
+3. It execute the main() method.
+
+
+this keyword helps to access current instance members whereas this() helps to call current class constructor

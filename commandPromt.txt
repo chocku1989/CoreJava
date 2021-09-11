@@ -1,0 +1,6 @@
+javac -d C:\Users\Home\Desktop\Fullstack HelloWorld.javadd
+cmd clear 
+javap
+java -version
+
+
